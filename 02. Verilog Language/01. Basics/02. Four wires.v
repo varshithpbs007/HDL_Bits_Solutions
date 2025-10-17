@@ -5,6 +5,6 @@ assign w = a;
 assign x = b;
 assign y = b;
 assign z = c;
-    //we can also connect the wires like ---> assign {w,x,y,z} = {a,b,b,c}; if the width of each signal is known
+    //we can also connect the wires like ---> assign {w,x,y,z} = {a,b,b,c};<-- using the concatenation operator, if the width of each signal is known
 endmodule
 
