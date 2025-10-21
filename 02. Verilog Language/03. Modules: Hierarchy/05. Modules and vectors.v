@@ -2,7 +2,7 @@ module top_module (
     input clk, 
     input [7:0] d, 
     input [1:0] sel, 
-    output reg [7:0] q 
+    output reg [7:0] q //Declaring 'q' as 'reg' type is necessary becuase it is updated inside an "always@" block
 );
     parameter SEL0 = 2'b00 , SEL1 = 2'b01 , SEL2 = 2'b10 , SEL3 = 2'b11;
     
