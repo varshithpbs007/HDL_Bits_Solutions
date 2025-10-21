@@ -1,4 +1,7 @@
-module top_module ( input clk, input d, output q );
+module top_module ( input clk,
+                    input d,
+                    output q
+                  );
     
     wire one_two;//wire declared between one and two ff
     wire two_three;//wire declared between two and three ff
